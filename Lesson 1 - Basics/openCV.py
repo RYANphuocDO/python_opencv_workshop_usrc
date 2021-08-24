@@ -2,7 +2,7 @@ import cv2
 
 
 #reading images
-img = cv2.imread('..\..\Downloads\Mywallpaper.png')
+img = cv2.imread('..\Photos\Mywallpaper.png')
 cv2.imshow('Wallpaper', img)
 
 
