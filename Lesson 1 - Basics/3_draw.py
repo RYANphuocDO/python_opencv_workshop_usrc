@@ -22,6 +22,7 @@ cv2.imshow('Rectangle',blank)
 
 #draw circle
 cv2.circle(blank,(250,250),40,(255,0,0),thickness=2)
+
 cv2.imshow('Circle',blank)
 
 #draw line
