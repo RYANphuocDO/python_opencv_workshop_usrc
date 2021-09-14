@@ -4,7 +4,7 @@
 import cv2
 import numpy as np
 
-frame = cv2.imread('../Photos/sudoku.png')
+frame = cv2.imread('Photos/sudoku.png')
 edges = cv2.Canny(frame,100,800) 
 
 minLineLength=100
